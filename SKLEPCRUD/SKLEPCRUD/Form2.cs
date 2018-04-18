@@ -41,6 +41,13 @@ namespace SKLEPCRUD
             laptop.ekran = int.Parse(this.textEkran.Text);
             laptop.cena = int.Parse(this.textCena.Text);
             db.SaveChanges();
+
+            //Laptop laptopNew = new Laptop();
+            //    laptopNew.ram = 141;
+            //db.Laptop.Add(laptopNew);
+            //db.SaveChanges();
+
+            //db.Laptop.Remove(laptop);
         }
     }
 }
